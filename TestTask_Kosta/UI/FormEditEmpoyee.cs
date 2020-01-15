@@ -33,8 +33,8 @@ namespace TestTask_Kosta
             cbx_CloseForm.Visible = true;
             btn_UpdateDataEmpoyee.Text = _textBtnAddEmployee;
             btn_UpdateDataEmpoyee.Click += AddNewEmployeeInDataBase;
-            LoadListDepartment();
 
+            LoadListDepartment();
         }
 
         /// <summary>
@@ -57,7 +57,7 @@ namespace TestTask_Kosta
 
 
         /// <summary>
-        /// Загрузить данные в компоненты формы
+        /// Загрузить данные в констролы формы
         /// </summary>
         /// <param name="rowEmpoyee"></param>
         private void LoadDataEmployee(DataRow rowEmpoyee)
@@ -231,7 +231,7 @@ namespace TestTask_Kosta
         }
 
         /// <summary>
-        /// Проверка текста на наличие только букв и дифиса
+        /// Проверка текста на соответсвие разрешённым символам
         /// </summary>
         /// <param name="text"></param>
         /// <returns></returns>
@@ -296,7 +296,6 @@ namespace TestTask_Kosta
             TextBox textBox = (TextBox)sender;
             string text = textBox.Text;
             textBox.Text = CheckText(text, TypeFild.LatterDash);
-
         }
 
         private void tbx_DocSeriesEmpoyee_TextChanged(object sender, EventArgs e)

@@ -312,6 +312,8 @@
             this.Controls.Add(this.lbl_DocSeriesEmpoyee);
             this.Controls.Add(this.lbl_DateOfBirthEmpoyee);
             this.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.MaximumSize = new System.Drawing.Size(417, 553);
+            this.MinimumSize = new System.Drawing.Size(417, 553);
             this.Name = "FormEditEmpoyee";
             this.ResumeLayout(false);
             this.PerformLayout();

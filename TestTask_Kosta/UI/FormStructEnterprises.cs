@@ -55,7 +55,7 @@ namespace TestTask_Kosta
         }
 
         /// <summary>
-        /// Поиск и доавление подотделов предприятия в родительский узел.
+        /// Поиск и добавление подотделов предприятия в родительский узел.
         /// </summary>
         /// <param name="rowNode">Строка из таблицы с данными отдела</param>
         /// <param name="tableDepartment">Таблица в которой осуществляется поиск</param>
@@ -172,7 +172,7 @@ namespace TestTask_Kosta
         }
 
         /// <summary>
-        /// Расчтё возвраста сотрудника по дате дня рождения
+        /// Расчтё возвраста сотрудника по дате рождения
         /// </summary>
         /// <param name="dateOfBirth"></param>
         /// <returns></returns>
@@ -220,10 +220,6 @@ namespace TestTask_Kosta
             _statusShowFormStandart = true;
             pnl_DataInfoEmpoyee.Visible = false;
             this.Size = _sizeFormStandart;
-           /* pnl_DataInfoEmpoyee.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom;
-            dataGrid_workers.Anchor = AnchorStyles.Left| AnchorStyles.Top| AnchorStyles.Bottom;
-            btn_AddEmployee.Anchor = AnchorStyles.Left | AnchorStyles.Bottom;
-            btn_ShowPanelEmpoyee.Anchor = AnchorStyles.Left | AnchorStyles.Bottom;*/
             btn_ShowPanelEmpoyee.Text = _textBtnShowDataEmployee_Standart;
         }
 
@@ -237,12 +233,6 @@ namespace TestTask_Kosta
             pnl_DataInfoEmpoyee.Visible = true;
             btn_ShowPanelEmpoyee.Text = _textBtnShowDataEmployee_Extend;
             this.Size = _sizeFormExpand;
-           /* pnl_DataInfoEmpoyee.Anchor = AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
-            dataGrid_workers.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Bottom|AnchorStyles.Right;
-            btn_AddEmployee.Anchor = AnchorStyles.Bottom;
-            btn_ShowPanelEmpoyee.Anchor = AnchorStyles.Bottom;*/
-
-
         }
 
         private void btn_DeleteEmpolye_Click(object sender, EventArgs e)
