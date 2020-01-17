@@ -147,7 +147,7 @@
             this.tbx_NameEmpoyee.MaxLength = 50;
             this.tbx_NameEmpoyee.Name = "tbx_NameEmpoyee";
             this.tbx_NameEmpoyee.Size = new System.Drawing.Size(159, 25);
-            this.tbx_NameEmpoyee.TabIndex = 14;
+            this.tbx_NameEmpoyee.TabIndex = 1;
             this.tbx_NameEmpoyee.TextChanged += new System.EventHandler(this.tbx_NameEmpoyee_TextChanged);
             // 
             // tbx_SurNameEmpoyee
@@ -157,7 +157,7 @@
             this.tbx_SurNameEmpoyee.MaxLength = 50;
             this.tbx_SurNameEmpoyee.Name = "tbx_SurNameEmpoyee";
             this.tbx_SurNameEmpoyee.Size = new System.Drawing.Size(159, 25);
-            this.tbx_SurNameEmpoyee.TabIndex = 14;
+            this.tbx_SurNameEmpoyee.TabIndex = 3;
             this.tbx_SurNameEmpoyee.TextChanged += new System.EventHandler(this.tbx_SurNameEmpoyee_TextChanged);
             // 
             // tbx_PatronymicEmpoyee
@@ -167,7 +167,7 @@
             this.tbx_PatronymicEmpoyee.MaxLength = 50;
             this.tbx_PatronymicEmpoyee.Name = "tbx_PatronymicEmpoyee";
             this.tbx_PatronymicEmpoyee.Size = new System.Drawing.Size(159, 25);
-            this.tbx_PatronymicEmpoyee.TabIndex = 14;
+            this.tbx_PatronymicEmpoyee.TabIndex = 2;
             this.tbx_PatronymicEmpoyee.TextChanged += new System.EventHandler(this.tbx_PatronymicEmpoyee_TextChanged);
             // 
             // tbx_PositionEmpoyee
@@ -177,7 +177,7 @@
             this.tbx_PositionEmpoyee.MaxLength = 50;
             this.tbx_PositionEmpoyee.Name = "tbx_PositionEmpoyee";
             this.tbx_PositionEmpoyee.Size = new System.Drawing.Size(323, 25);
-            this.tbx_PositionEmpoyee.TabIndex = 14;
+            this.tbx_PositionEmpoyee.TabIndex = 7;
             this.tbx_PositionEmpoyee.TextChanged += new System.EventHandler(this.tbx_PositionEmpoyee_TextChanged);
             // 
             // tbx_DocSeriesEmpoyee
@@ -187,7 +187,7 @@
             this.tbx_DocSeriesEmpoyee.MaxLength = 4;
             this.tbx_DocSeriesEmpoyee.Name = "tbx_DocSeriesEmpoyee";
             this.tbx_DocSeriesEmpoyee.Size = new System.Drawing.Size(88, 25);
-            this.tbx_DocSeriesEmpoyee.TabIndex = 14;
+            this.tbx_DocSeriesEmpoyee.TabIndex = 5;
             this.tbx_DocSeriesEmpoyee.TextChanged += new System.EventHandler(this.tbx_DocSeriesEmpoyee_TextChanged);
             // 
             // lbl_DocNumberEmployee
@@ -208,7 +208,7 @@
             this.tbx_DocNumberEmployee.MaxLength = 6;
             this.tbx_DocNumberEmployee.Name = "tbx_DocNumberEmployee";
             this.tbx_DocNumberEmployee.Size = new System.Drawing.Size(88, 25);
-            this.tbx_DocNumberEmployee.TabIndex = 14;
+            this.tbx_DocNumberEmployee.TabIndex = 6;
             this.tbx_DocNumberEmployee.TextChanged += new System.EventHandler(this.tbx_DocNumberEmployee_TextChanged);
             // 
             // tbx_DateOfBirthEmpoyee
@@ -216,7 +216,7 @@
             this.tbx_DateOfBirthEmpoyee.Location = new System.Drawing.Point(167, 203);
             this.tbx_DateOfBirthEmpoyee.Name = "tbx_DateOfBirthEmpoyee";
             this.tbx_DateOfBirthEmpoyee.Size = new System.Drawing.Size(159, 20);
-            this.tbx_DateOfBirthEmpoyee.TabIndex = 15;
+            this.tbx_DateOfBirthEmpoyee.TabIndex = 4;
             // 
             // cbox_CodeDepartmentEmpoyee
             // 
@@ -224,7 +224,7 @@
             this.cbox_CodeDepartmentEmpoyee.Location = new System.Drawing.Point(165, 348);
             this.cbox_CodeDepartmentEmpoyee.Name = "cbox_CodeDepartmentEmpoyee";
             this.cbox_CodeDepartmentEmpoyee.Size = new System.Drawing.Size(121, 21);
-            this.cbox_CodeDepartmentEmpoyee.TabIndex = 16;
+            this.cbox_CodeDepartmentEmpoyee.TabIndex = 8;
             this.cbox_CodeDepartmentEmpoyee.SelectedIndexChanged += new System.EventHandler(this.cbox_CodeDepartmentEmpoyee_SelectedIndexChanged);
             // 
             // btn_UpdateDataEmpoyee
@@ -234,7 +234,7 @@
             this.btn_UpdateDataEmpoyee.Location = new System.Drawing.Point(24, 427);
             this.btn_UpdateDataEmpoyee.Name = "btn_UpdateDataEmpoyee";
             this.btn_UpdateDataEmpoyee.Size = new System.Drawing.Size(166, 47);
-            this.btn_UpdateDataEmpoyee.TabIndex = 17;
+            this.btn_UpdateDataEmpoyee.TabIndex = 9;
             this.btn_UpdateDataEmpoyee.Text = "Изменить данные";
             this.btn_UpdateDataEmpoyee.UseVisualStyleBackColor = false;
             // 
@@ -245,7 +245,7 @@
             this.btn_Cansel.Location = new System.Drawing.Point(203, 427);
             this.btn_Cansel.Name = "btn_Cansel";
             this.btn_Cansel.Size = new System.Drawing.Size(166, 47);
-            this.btn_Cansel.TabIndex = 17;
+            this.btn_Cansel.TabIndex = 10;
             this.btn_Cansel.Text = "Отмена";
             this.btn_Cansel.UseVisualStyleBackColor = false;
             this.btn_Cansel.Click += new System.EventHandler(this.btn_Cansel_Click);
@@ -279,7 +279,7 @@
             this.cbx_CloseForm.Location = new System.Drawing.Point(46, 485);
             this.cbx_CloseForm.Name = "cbx_CloseForm";
             this.cbx_CloseForm.Size = new System.Drawing.Size(255, 17);
-            this.cbx_CloseForm.TabIndex = 18;
+            this.cbx_CloseForm.TabIndex = 11;
             this.cbx_CloseForm.Text = "Закрыть форму после выполнения операции";
             this.cbx_CloseForm.UseVisualStyleBackColor = true;
             // 

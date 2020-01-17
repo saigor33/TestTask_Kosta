@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dB_Kosta = new TestTask_Kosta.DB_Kosta();
             this.treeStructEnterprises = new System.Windows.Forms.TreeView();
             this.lbl_structEnterpises = new System.Windows.Forms.Label();
@@ -80,7 +80,7 @@
             this.treeStructEnterprises.Location = new System.Drawing.Point(12, 120);
             this.treeStructEnterprises.Name = "treeStructEnterprises";
             this.treeStructEnterprises.Size = new System.Drawing.Size(290, 375);
-            this.treeStructEnterprises.TabIndex = 2;
+            this.treeStructEnterprises.TabIndex = 1;
             this.treeStructEnterprises.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeStructEnterprises_AfterSelect);
             // 
             // lbl_structEnterpises
@@ -103,14 +103,14 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGrid_workers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGrid_workers.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGrid_workers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGrid_workers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGrid_workers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid_workers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Position,
@@ -121,7 +121,7 @@
             this.dataGrid_workers.ReadOnly = true;
             this.dataGrid_workers.RowHeadersVisible = false;
             this.dataGrid_workers.Size = new System.Drawing.Size(390, 329);
-            this.dataGrid_workers.TabIndex = 4;
+            this.dataGrid_workers.TabIndex = 2;
             this.dataGrid_workers.Click += new System.EventHandler(this.dataGrid_workers_Click);
             // 
             // Position
@@ -356,7 +356,7 @@
             this.btn_EditEmployee.Location = new System.Drawing.Point(174, 328);
             this.btn_EditEmployee.Name = "btn_EditEmployee";
             this.btn_EditEmployee.Size = new System.Drawing.Size(143, 47);
-            this.btn_EditEmployee.TabIndex = 7;
+            this.btn_EditEmployee.TabIndex = 6;
             this.btn_EditEmployee.Text = "Редактировать данные";
             this.btn_EditEmployee.UseVisualStyleBackColor = false;
             this.btn_EditEmployee.Click += new System.EventHandler(this.btn_EditEmployee_Click);
@@ -369,7 +369,7 @@
             this.btn_DeleteEmpolye.Location = new System.Drawing.Point(22, 328);
             this.btn_DeleteEmpolye.Name = "btn_DeleteEmpolye";
             this.btn_DeleteEmpolye.Size = new System.Drawing.Size(136, 47);
-            this.btn_DeleteEmpolye.TabIndex = 7;
+            this.btn_DeleteEmpolye.TabIndex = 5;
             this.btn_DeleteEmpolye.Text = "Удалить сотрудника";
             this.btn_DeleteEmpolye.UseVisualStyleBackColor = false;
             this.btn_DeleteEmpolye.Click += new System.EventHandler(this.btn_DeleteEmpolye_Click);
@@ -383,7 +383,7 @@
             this.btn_ShowPanelEmpoyee.Location = new System.Drawing.Point(537, 455);
             this.btn_ShowPanelEmpoyee.Name = "btn_ShowPanelEmpoyee";
             this.btn_ShowPanelEmpoyee.Size = new System.Drawing.Size(213, 47);
-            this.btn_ShowPanelEmpoyee.TabIndex = 7;
+            this.btn_ShowPanelEmpoyee.TabIndex = 4;
             this.btn_ShowPanelEmpoyee.Text = "Показать подробные данные\r\nо выбранном сотруднике >>";
             this.btn_ShowPanelEmpoyee.UseVisualStyleBackColor = false;
             this.btn_ShowPanelEmpoyee.Click += new System.EventHandler(this.btn_ShowPanelEmpoyee_Click);
@@ -408,7 +408,7 @@
             this.btn_AddEmployee.Location = new System.Drawing.Point(360, 456);
             this.btn_AddEmployee.Name = "btn_AddEmployee";
             this.btn_AddEmployee.Size = new System.Drawing.Size(163, 47);
-            this.btn_AddEmployee.TabIndex = 7;
+            this.btn_AddEmployee.TabIndex = 3;
             this.btn_AddEmployee.Text = "Добавит сотрудника";
             this.btn_AddEmployee.UseVisualStyleBackColor = false;
             this.btn_AddEmployee.Click += new System.EventHandler(this.btn_AddEmployee_Click);
@@ -423,7 +423,7 @@
             this.cbx_ShowMessage.Location = new System.Drawing.Point(608, 12);
             this.cbx_ShowMessage.Name = "cbx_ShowMessage";
             this.cbx_ShowMessage.Size = new System.Drawing.Size(148, 17);
-            this.cbx_ShowMessage.TabIndex = 8;
+            this.cbx_ShowMessage.TabIndex = 7;
             this.cbx_ShowMessage.Text = "Отображать сообщения";
             this.cbx_ShowMessage.UseVisualStyleBackColor = true;
             this.cbx_ShowMessage.CheckedChanged += new System.EventHandler(this.cbx_ShowMessage_CheckedChanged);
@@ -437,7 +437,7 @@
             this.btn_Exit.Location = new System.Drawing.Point(658, 30);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(95, 35);
-            this.btn_Exit.TabIndex = 7;
+            this.btn_Exit.TabIndex = 8;
             this.btn_Exit.Text = "Выход";
             this.btn_Exit.UseVisualStyleBackColor = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
